@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Greeting from './components/Greeting';
+import Footer from './components/Footer';
+import DarkModeToggle from './components/DarkModeToggle';
+import Tourch from './components/Tourch';
 
 function App() {
   return (
-    <>
-      <Greeting name={"Alx"} />
-      <Greeting name={"Holberton"} />
-      <Greeting name={"School"} />
-    </>
+    <div className='container'>
+      <DarkModeToggle/>
+      <Tourch/>
+      <Footer/>
+    </div>
   );
 }
 
